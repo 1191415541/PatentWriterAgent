@@ -43,7 +43,7 @@ graph TB
     subgraph MCPTools["MCP 工具服务器"]
         direction LR
         GooglePatents["🔍 Google Patents<br/>专利检索"]
-        ExaSearch["🌐 Exa Search<br/>Web搜索"]
+        GrokSearch["🌐 Grok Search<br/>Web搜索"]
         Markitdown["📝 Markitdown<br/>文档转换"]
         ImageGenerator["🖼️ 图片生成<br/>Image Generator"]
         DocumentGenerator["📄 文档生成<br/>Document Generator"]
@@ -65,7 +65,7 @@ graph TB
 
     S1 -.调用.-> Markitdown
     S2 -.调用.-> GooglePatents
-    S2 -.调用.-> ExaSearch
+    S2 -.调用.-> GrokSearch
     S5 -.调用.-> ImageGenerator
     S6 -.调用.-> DocumentGenerator
 
@@ -94,7 +94,7 @@ graph TB
     style S6 fill:#D4E8F0,stroke:#666,stroke-width:1px,color:#333
     style Memory fill:#E8E8E8,stroke:#666,stroke-width:1px,color:#333
     style GooglePatents fill:#E8E8E8,stroke:#666,stroke-width:1px,color:#333
-    style ExaSearch fill:#E8E8E8,stroke:#666,stroke-width:1px,color:#333
+    style GrokSearch fill:#E8E8E8,stroke:#666,stroke-width:1px,color:#333
     style Markitdown fill:#E8E8E8,stroke:#666,stroke-width:1px,color:#333
     style DocumentGenerator fill:#E8E8E8,stroke:#666,stroke-width:1px,color:#333
     style ImageGenerator fill:#E8E8E8,stroke:#666,stroke-width:1px,color:#333

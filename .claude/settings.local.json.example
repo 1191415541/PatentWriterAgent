@@ -16,6 +16,6 @@
   },
   "enabledMcpjsonServers": [
     "google-patents-mcp",
-    "exa"
+    "grok-search"
   ]
 }

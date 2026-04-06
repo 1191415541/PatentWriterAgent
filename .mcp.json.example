@@ -10,15 +10,16 @@
         "SERPAPI_API_KEY": "xxxx"
       }
     },
-    "exa": {
+    "grok-search": {
       "type": "stdio",
       "command": "npx",
       "args": [
         "-y",
-        "exa-mcp-server"
+        "grok-search-mcp"
       ],
       "env": {
-        "EXA_API_KEY": "xxxx"
+        "GROK_API_KEY": "xxxx",
+        "GROK_BASE_URL": "https://api.x.ai/v1"
       }
     }
   }

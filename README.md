@@ -12,7 +12,7 @@ pip install -r requirements.txt
 cp .mcp.json.example .mcp.json
 cp .claude/settings.local.json.example .claude/settings.local.json
 
-# 修改 .mcp.json 中的 API KEY，包括SERPAPI_API_KEY和EXA_API_KEY
+# 修改 .mcp.json 中的 API KEY，包括SERPAPI_API_KEY和GROK_API_KEY
 # 修改 .claude/settings.local.json 中的 Token 和 URL（配置为第三方模型，如果不使用第三方，删除掉以ANTHROPIC开头的env即可）
 
 #CLI
